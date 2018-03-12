@@ -22,7 +22,8 @@ class LoginActivity : AppCompatActivity(),LoginCallback.View {
         presenter=LoginPresenter(this)
 
         la_login_bt.setOnClickListener {
-
+            dialog = ProgressDialog.show(this, "",
+                    "Iniciando sesion...", true)
             presenter.showLoginStar(this,
                                      la_user_et.text.toString().trim(),
                                     la_password_et.text.toString().trim())
@@ -30,8 +31,7 @@ class LoginActivity : AppCompatActivity(),LoginCallback.View {
         bt_create_account.setOnClickListener {
             startActivity(Intent(this,CreateAccountActivity::class.java))
         }
-        dialog = ProgressDialog.show(this, "",
-                "Iniciando sesion...", true)
+
 
 
     }
