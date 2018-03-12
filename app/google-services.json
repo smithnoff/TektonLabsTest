@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "414574271685",
+    "firebase_url": "https://admob-app-id-1360210227.firebaseio.com",
+    "project_id": "admob-app-id-1360210227",
+    "storage_bucket": "admob-app-id-1360210227.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414574271685:android:a6172e98ac49c30c",
+        "android_client_info": {
+          "package_name": "com.smithnoff.cesarsmith.tektonlabstest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "414574271685-3etjv31d1v3mbqq1arihpv1kv0rlpq15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smithnoff.cesarsmith.tektonlabstest",
+            "certificate_hash": "680b78eaafa1ddcf6bdfd5c80961142a50009210"
+          }
+        },
+        {
+          "client_id": "414574271685-ee62gvqk6s07o9e5ebkacpn39bf30dfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzv4X3fB3BaaClDnSN2MzccLV7jn3AuTM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "414574271685-ee62gvqk6s07o9e5ebkacpn39bf30dfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
